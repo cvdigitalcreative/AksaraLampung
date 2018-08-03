@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.shaff.aksaralampung.Boundary.PengenalanActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_purple"
+        android:text="Pengenalan Aksara Lampung"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_browse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:text="Browse Citra"/>
+
+            <ImageView
+                android:id="@+id/img_citra"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:visibility="gone"/>
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:id="@+id/signature"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <TextView
+                android:id="@+id/tv_status_pengenalan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="None"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_pengenalan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:text="Pengenalan Aksara"/>
+
+            <Button
+                android:id="@+id/btn_simpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:text="Simpan Data"/>
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:text="Clear Canvas"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466876693050",
+    "firebase_url": "https://taaksaralampung.firebaseio.com",
+    "project_id": "taaksaralampung",
+    "storage_bucket": "taaksaralampung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466876693050:android:91ecf87098334f57",
+        "android_client_info": {
+          "package_name": "com.example.shaff.aksaralampung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466876693050-vmku03rls7sq6mg3aksetssoecbfrfeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shaff.aksaralampung",
+            "certificate_hash": "e42c6651c44e025dce72ce97ee1af6d43047b628"
+          }
+        },
+        {
+          "client_id": "466876693050-v1asrg74vrrt7pt7b63v6qfsi5uk7nhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVtcs90mmJEGYbeHzPUKB-DMGyUGgVISE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466876693050-v1asrg74vrrt7pt7b63v6qfsi5uk7nhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
